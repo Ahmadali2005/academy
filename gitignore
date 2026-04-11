@@ -1,0 +1,23 @@
+# تجاهل البيئة الافتراضية (أكبر مسبب للحجم)
+venv/
+.venv/
+env/
+__pycache__/
+.vscode/
+
+# تجاهل ملفات البيانات والكتب (ارفعها على استضافة الـ PHP لاحقاً)
+Anatomy/
+Biochemistry/
+biology/
+*.pdf
+*.docx
+
+# تجاهل الصور
+*.jpeg
+*.jpg
+*.png
+*.gif
+
+# تجاهل ملفات النظام
+.DS_Store
+Thumbs.db
